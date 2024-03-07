@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 100vh;
+  color: #282828 !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  max-width: 800px;
+}
+#container_geral {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: grey;
+}
+#container_botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+  cursor: pointer;
+}
+.fraldas {
+  max-width: 300px;
+  border: 10px solid rgb(228, 224, 224);
+  margin: 50px;
+  padding: 30px;
+  margin-bottom: 0px;
+}
+#destaques {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#texto {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container_rodape {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+#texto_rodape {
+  font-size: 16px;
+  text-align: center;
+}
+.imagem_rede_social {
+  width: 35px;
+  height: auto;
+  padding: 25px 25px;
+  cursor: pointer;
+  align-items: center;
+}
+#linha-horizontal {
+  width: 100%;
+  border: 1px solid gray;
+}
